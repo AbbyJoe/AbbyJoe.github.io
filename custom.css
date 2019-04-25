@@ -27,6 +27,9 @@ html, body{
     background-color: #ffcc00;
     color: #fff;
 }
+.btn-button:focus, .btn-inf:focus, .btn-outlin:focus{
+    outline: 0;
+}
 .btn-button{
     background-color: #ffcc00;
     color:#fff; 
@@ -216,9 +219,7 @@ section{
     border-bottom: 1.5px solid #ced4da;
     border-radius: 0;
     box-sizing: content-box;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    outline: 0;
-   
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;   
 }
 .form-control {
     margin: 0 0 .5rem;
