@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 html, body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+}
+.nav-item {
+    margin-left: 50px
 }
 .btn-inf{
     background-color: transparent;
@@ -44,7 +50,7 @@ html, body{
     padding: 5px 25px;
 }
 .top-space{
-    margin-top: 100px;
+    margin-top: 15%;
 }
 .btn-submit{
     background-color: #ffcc00;
@@ -90,8 +96,10 @@ li{
     margin-bottom: 35px;
 }
 .icon, .b{
-    color: #ffcc00
+    color: #ffcc00;
+    
 }
+
 .con{
     font-size: 50px;
     font-weight: 30px;
@@ -221,6 +229,9 @@ section{
     box-sizing: content-box;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;   
 }
+input[type="email"]:focus {
+    outline: none;
+}
 .form-control {
     margin: 0 0 .5rem;
     border-radius: 0;
@@ -239,4 +250,22 @@ section{
    border-radius: 100%;
    border: 1px solid #ffcc00;
    padding: 5px
+}
+.soc-icon, .soc-icon:hover {
+    color: #ffcc00;
+    transition: all ease 2s
+}
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #ffcc00;
+    text-decoration: none;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
 }
